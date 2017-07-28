@@ -65,6 +65,7 @@ h2, h3, legend {
     width: 100%;
     height: 100%;
     font-weight: normal;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 19px;
     padding-top: 150px;
     background-color: rgba(3,3,3,0.0);
@@ -75,20 +76,24 @@ h2, h3, legend {
     color: white;    
 }
 
-image-block:hover div {
-	margin-top: 100px;
-	margin-left: 10px;
+.image-block div {
+	position: absolute;
+	bottom: 0;
 	height: 50px;
-	width: 150px;
-	background: #4aaaa5;
+	width: 100%;
+	background-color: rgba(74, 170, 165, 0);
 	line-height: 50px;
 	text-align: center;
 	color: #fff;
-	position: absolute;
-	display: inline-block;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	visibility: hidden;
+	
 }
 
+.image-block:hover div {
+	background-color: rgba(74, 170, 165, 1);
+	color: white;
+	visibility: visible;
+}
 
 /*--------------*/
 
