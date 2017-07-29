@@ -69,7 +69,7 @@ h2, h3, legend {
     text-align: center;
     vertical-align: bottom;
 }
-.image-block p {
+/*.image-block p {
     width: 100%;
     height: 100%;
     font-weight: normal;
@@ -82,7 +82,7 @@ h2, h3, legend {
 .image-block:hover p {
     background-color: rgba(3,3,3,0.5);    
     color: white;    
-}
+}*/
 
 .image-block div {
 	position: absolute;
@@ -102,6 +102,16 @@ h2, h3, legend {
 	background-color: rgba(74, 170, 165, 1);
 	color: white;
 	visibility: visible;
+}
+
+#portfolio-connect {
+	text-align: center;
+	margin: 20px;
+}
+
+#portfolio-connect img {
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 /*--------------*/
